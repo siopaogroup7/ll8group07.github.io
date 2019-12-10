@@ -8,3 +8,8 @@ document.querySelector('.close').addEventListener('click', function() {
   document.querySelector('.bg-modal').style.display = 'none';
 });
 
+document.getElementById('button2').addEventListener('click',
+function() {
+  window.stop();
+  document.querySelector('.bg-modal').style.display = 'flex';
+});
